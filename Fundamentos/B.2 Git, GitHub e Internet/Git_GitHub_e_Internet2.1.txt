@@ -1,0 +1,4 @@
+#Git e GitHub - O que é e para que serve
+  
+  O Git é um sistema de controle de versão distribuído (DVCS), ele permite, através dos commits, você ter um histórico detalhado das alterações do seu projeto, permitindo você ir e voltar entre as alterações (versões). Com integrção a plataformas de hospedagem de repositórios, como o próprio GitHub, a engenharia do Git pode ser elevada ao uso em equipe. Basicamente expõe o seu repositório para que outras pessoas tenham acesso e façam as alterações de assincrona e harmoniosa, utilizando ferramentas como pull requests, code review, etc...
+  Indo para a prática do dia, fazemos a instalação e configuração do git, a criação da conta do github. Para fazer a ponte de conexão entre o git e github, utilizaremos uma chave SSH, para ter mais praticidade, e enfim, criamos o nosso repositorio de exercicios 
