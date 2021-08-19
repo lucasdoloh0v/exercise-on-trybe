@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    text-align: center;
+  }
+
+h1 {
+    width: 60px;
+    color: orange;
+    font-family: sans-serif;
+  }
+
+ul {
+    background-color: gainsboro;
+    line-height: 25px;
+    text-decoration: underline;
+  }
+
+.fundodoparagrafoeul {
+    background-color: grey;
+  }
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: oblique;
+  }
+
+#amarelo {background-color: yellow;
+
+  }
+
+#vermelho {
+    background-color: red;
+  }
+
+#marrom {
+    background-color: brown;
+}
