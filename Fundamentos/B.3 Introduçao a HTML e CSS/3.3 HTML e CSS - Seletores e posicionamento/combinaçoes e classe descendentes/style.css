@@ -35,10 +35,6 @@ li em {
    background-color: pink;
 }
 
-.links{
-    text-decoration-color: grey;
-}
-
 .links li:hover {
     font-weight: bold;
 }
@@ -56,7 +52,9 @@ li em {
 }
 
 .links li:hover:nth-of-type(4) {
-    color: green;
+    color: yellow;
 }
 
-.links li:hover:nth-of-type(5) {}
+.links li:hover:nth-of-type(5) {
+    color: green;
+}
