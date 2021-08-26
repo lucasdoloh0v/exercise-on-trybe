@@ -71,7 +71,7 @@ if (chessPieces == 'pawn') {
   console.log('all directions, but 1 square')
 }*/
 /// 7°
-let testGrade = 75;
+/*let testGrade = 75;
 
 if (testGrade >= 90) {
   console.log('A')
@@ -85,4 +85,15 @@ if (testGrade >= 90) {
   console.log('E')
 } else {
   console.log('F')
+}*/
+
+/// 8°
+const number1 = 7
+const number2 = 45
+const number3 = 39
+
+if (number1 % 2 == 0 || number1 % 2 == 0 || number3 % 2 == 0) {
+  console.log('true')
+} else {
+  console.log('false')
 }
