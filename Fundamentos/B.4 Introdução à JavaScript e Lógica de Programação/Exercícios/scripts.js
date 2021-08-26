@@ -54,6 +54,35 @@ if (angleA + angleB + angleC == 180) {
 }*/
 
 ///6°
-let chessPieces = "Knigth";
+/*let chessPieces = 'Knigth';
 chessPieces = chessPieces.toLowerCase();
-console.log(chessPieces)
+
+if (chessPieces == 'pawn') {
+  console.log('foward 1 square')
+} else if (chessPieces == 'rook') {
+  console.log('columns and lines')
+} else if (chessPieces == 'knigth') {
+  console.log('L moves')
+} else if (chessPieces == 'bishops') {
+  console.log('diagonals')
+} else if (chessPieces == 'queen') {
+  console.log('all directions')
+} else if (chessPieces == 'king') {
+  console.log('all directions, but 1 square')
+}*/
+/// 7°
+let testGrade = 75;
+
+if (testGrade >= 90) {
+  console.log('A')
+} else if (testGrade >= 80) {
+  console.log('B')
+} else if (testGrade >= 70) {
+  console.log('C')
+} else if (testGrade >= 60) {
+  console.log('D')
+} else if (testGrade >= 50) {
+  console.log('E')
+} else {
+  console.log('F')
+}
