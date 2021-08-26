@@ -32,7 +32,7 @@ if (a > b && a > c) {
 }*/
 
 /// 4°
-const a = 0
+/*const a = 0
 
 if (a > 0) {
   console.log('positive')
@@ -40,4 +40,15 @@ if (a > 0) {
   console.log('Negative')
 } else {
   console.log('zero')
+}*/
+
+/// 5°
+const angleA = 90;
+const angleB = 60;
+const angleC = 30;
+
+if (angleA + angleB + angleC == 180) {
+  console.log('true')
+} else {
+  console.log('false')
 }
