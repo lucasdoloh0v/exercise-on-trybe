@@ -19,7 +19,7 @@ if (a > b) {
 }*/
 
 /// 3°
-const a = 52
+/*const a = 52
 const b = 74
 const c = 75
 
@@ -29,4 +29,15 @@ if (a > b && a > c) {
   console.log(b)
 } else {
   console.log(c)
+}*/
+
+/// 4°
+const a = 0
+
+if (a > 0) {
+  console.log('positive')
+} else if (a < 0){
+  console.log('Negative')
+} else {
+  console.log('zero')
 }
