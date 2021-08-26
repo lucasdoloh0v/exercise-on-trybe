@@ -47,10 +47,12 @@ if (a > 0) {
 const angleB = 60;
 const angleC = 30;
 
-if (angleA + angleB + angleC == 180) {
+if (angleA > 0 && angleB > 0 && angleC > 0) {
+  if (angleA + angleB + angleC == 180) {
   console.log('true');
-} else if (angleA + angleB + angleC == !180) {
+  } else if (angleA + angleB + angleC != 180) {
   console.log('false');
+  }
 } else {
   console.log('valor não suportado');
 }*/
@@ -125,7 +127,7 @@ if (valorCusto <= 0 && valorVenda <= 0) {
 }*/
 
 /// 11°
-let salarioBruto = 3000;
+/*let salarioBruto = 3000;
 let salarioBase ;
 let salarioLiquido ;
 
@@ -151,5 +153,5 @@ if (salarioBase <= 1903.98) {
   salarioLiquido = salarioBase - [(salarioBase * 27.5/100) - 636.13];
 }
 
-console.log(salarioBase)
-console.log(salarioLiquido)
+console.log(salarioBase);
+console.log(salarioLiquido);*/
