@@ -72,7 +72,7 @@ if (chessPieces == 'pawn') {
 } else if (chessPieces == 'queen') {
   console.log('all directions');
 } else if (chessPieces == 'king') {
-  console.log('all directions, but 1 square';)
+  console.log('all directions, but 1 square');
 }*/
 
 /// 7°
