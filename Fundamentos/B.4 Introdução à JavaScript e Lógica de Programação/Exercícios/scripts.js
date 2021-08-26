@@ -49,8 +49,10 @@ const angleC = 30;
 
 if (angleA + angleB + angleC == 180) {
   console.log('true');
-} else {
+} else if (angleA + angleB + angleC == !180) {
   console.log('false');
+} else {
+  console.log('valor não suportado');
 }*/
 
 ///6°
@@ -111,9 +113,43 @@ if (number1 % 2 == !0 || number1 % 2 == !0 || number3 % 2 == !0) {
 }*/
 
 /// 10°
-let valorCusto = 10;
+/*let valorCusto = 10;
 let valorCustoTotal = (valorCusto + valorCusto * 20/100);
 let valorVenda = 15;
 let lucro = valorVenda - valorCustoTotal;
 
-console.log(lucro * 1000)
+if (valorCusto <= 0 && valorVenda <= 0) {
+  console.log('valor não suportado')
+} else {
+  console.log(lucro * 1000);
+}*/
+
+/// 11°
+let salarioBruto = 3000;
+let salarioBase ;
+let salarioLiquido ;
+
+if (salarioBruto <= 1556.94) {
+  salarioBase = salarioBruto - (salarioBruto * 8/100);
+} else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+  salarioBase = salarioBruto - (salarioBruto * 9/100);
+} else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+  salarioBase = salarioBruto - (salarioBruto * 11/100);
+} else {
+  salarioBase = salarioBruto - 570.88;
+} 
+
+if (salarioBase <= 1903.98) {
+  salarioLiquido = salarioBase;
+} else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
+  salarioLiquido = salarioBase - [(salarioBase * 7.5/100) - 142.80];
+} else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
+  salarioLiquido = salarioBase - [(salarioBase * 15/100) - 354.80];
+} else if (salarioBase >= 3751.06 && salarioBase <= 4664.68) {
+  salarioLiquido = salarioBase - [(salarioBase * 22.5/100) - 636.13];
+} else {
+  salarioLiquido = salarioBase - [(salarioBase * 27.5/100) - 636.13];
+}
+
+console.log(salarioBase)
+console.log(salarioLiquido)
