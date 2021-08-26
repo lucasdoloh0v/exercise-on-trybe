@@ -9,37 +9,37 @@ console.log(a / b);
 console.log(a % b);*/
 
 /// 2°
-/* const a = 2
-const b = 3
+/* const a = 2;
+const b = 3;
 
 if (a > b) {
-  console.log(a)
+  console.log(a);
 } else {
-  console.log(b)
+  console.log(b);
 }*/
 
 /// 3°
-/*const a = 52
-const b = 74
-const c = 75
+/*const a = 52;
+const b = 74;
+const c = 75;
 
 if (a > b && a > c) {
-  console.log(a)
+  console.log(a);
 } else if (b > a && b > c) {
-  console.log(b)
+  console.log(b);
 } else {
-  console.log(c)
+  console.log(c);
 }*/
 
 /// 4°
 /*const a = 0
 
 if (a > 0) {
-  console.log('positive')
+  console.log('positive');
 } else if (a < 0){
-  console.log('Negative')
+  console.log('Negative');
 } else {
-  console.log('zero')
+  console.log('zero');
 }*/
 
 /// 5°
@@ -48,9 +48,9 @@ const angleB = 60;
 const angleC = 30;
 
 if (angleA + angleB + angleC == 180) {
-  console.log('true')
+  console.log('true');
 } else {
-  console.log('false')
+  console.log('false');
 }*/
 
 ///6°
@@ -58,52 +58,62 @@ if (angleA + angleB + angleC == 180) {
 chessPieces = chessPieces.toLowerCase();
 
 if (chessPieces == 'pawn') {
-  console.log('foward 1 square')
+  console.log('foward 1 square');
 } else if (chessPieces == 'rook') {
-  console.log('columns and lines')
+  console.log('columns and lines');
 } else if (chessPieces == 'knigth') {
-  console.log('L moves')
+  console.log('L moves');
 } else if (chessPieces == 'bishops') {
-  console.log('diagonals')
+  console.log('diagonals');
 } else if (chessPieces == 'queen') {
-  console.log('all directions')
+  console.log('all directions');
 } else if (chessPieces == 'king') {
-  console.log('all directions, but 1 square')
+  console.log('all directions, but 1 square';)
 }*/
+
 /// 7°
 /*let testGrade = 75;
 
 if (testGrade >= 90) {
-  console.log('A')
+  console.log('A');
 } else if (testGrade >= 80) {
-  console.log('B')
+  console.log('B');
 } else if (testGrade >= 70) {
-  console.log('C')
+  console.log('C');
 } else if (testGrade >= 60) {
-  console.log('D')
+  console.log('D');
 } else if (testGrade >= 50) {
-  console.log('E')
+  console.log('E');
 } else {
-  console.log('F')
+  console.log('F');
 }*/
 
 /// 8°
-/*const number1 = 7
-const number2 = 45
-const number3 = 39
+/*const number1 = 7;
+const number2 = 45;
+const number3 = 39;
 
 if (number1 % 2 == 0 || number1 % 2 == 0 || number3 % 2 == 0) {
-  console.log('true')
+  console.log('true');
 } else {
-  console.log('false')
+  console.log('false');
 }*/
+
 /// 9°
-const number1 = 7
-const number2 = 44
-const number3 = 38
+/*const number1 = 7;
+const number2 = 44;
+const number3 = 38;
 
 if (number1 % 2 == !0 || number1 % 2 == !0 || number3 % 2 == !0) {
-  console.log('true')
+  console.log('true');
 } else {
-  console.log('false')
-}
+  console.log('false');
+}*/
+
+/// 10°
+let valorCusto = 10;
+let valorCustoTotal = (valorCusto + valorCusto * 20/100);
+let valorVenda = 15;
+let lucro = valorVenda - valorCustoTotal;
+
+console.log(lucro * 1000)
