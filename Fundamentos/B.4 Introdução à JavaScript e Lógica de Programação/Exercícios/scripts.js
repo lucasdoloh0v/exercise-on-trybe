@@ -43,7 +43,7 @@ if (a > 0) {
 }*/
 
 /// 5°
-const angleA = 90;
+/*const angleA = 90;
 const angleB = 60;
 const angleC = 30;
 
@@ -51,4 +51,9 @@ if (angleA + angleB + angleC == 180) {
   console.log('true')
 } else {
   console.log('false')
-}
+}*/
+
+///6°
+let chessPieces = "Knigth";
+chessPieces = chessPieces.toLowerCase();
+console.log(chessPieces)
