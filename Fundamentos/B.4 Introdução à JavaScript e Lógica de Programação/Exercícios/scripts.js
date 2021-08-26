@@ -88,11 +88,21 @@ if (testGrade >= 90) {
 }*/
 
 /// 8°
-const number1 = 7
+/*const number1 = 7
 const number2 = 45
 const number3 = 39
 
 if (number1 % 2 == 0 || number1 % 2 == 0 || number3 % 2 == 0) {
+  console.log('true')
+} else {
+  console.log('false')
+}*/
+/// 9°
+const number1 = 7
+const number2 = 44
+const number3 = 38
+
+if (number1 % 2 == !0 || number1 % 2 == !0 || number3 % 2 == !0) {
   console.log('true')
 } else {
   console.log('false')
