@@ -50,12 +50,10 @@ for (let i = 0; i < numbers.length; i++) {
 }
 console.log(lowerNumber);
 
-//8
+//8 & 9
 let growingList = [];
 for (let i = 1; i < 26; i++) {
   growingList.push(i)
   console.log(growingList[i-1] /2)
 }
 console.log(growingList);
-
-//9
