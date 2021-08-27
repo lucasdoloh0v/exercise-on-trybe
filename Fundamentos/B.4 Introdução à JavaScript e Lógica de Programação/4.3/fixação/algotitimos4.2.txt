@@ -1,0 +1,51 @@
+1°:
+pegar o primeiro numero e imprimir;
+pegar o segundo numero e imprimir...;
+------------------------------------------------------------------
+para indice = 0; indidice < tamanho da lista; indice +1
+  a cada indice da lista, imprimir seu numero correspondende
+
+2°:
+declara variavel soma dos numeros
+percorrer a lista;
+a cada numero soma dos numeros recebe soma dos numeros + o numero da lista corresponde ao indice da repetição;
+imprime a soma dos numeros;
+
+3°:
+declara media aritimética 0;
+media aritimetica recebe soma dos numeros dividido por tamnanho da lista;
+imprime media aritimética;
+
+4°:
+se media aritimética for maior que 20;
+imprime valor maior que 20;
+senão;
+imprime valor menor que 20;
+
+5°:
+declara maior numero 0;
+percorre a array de numeros;
+se numero do indice for maior que maior numero;
+maior numero recebe numero do indice;
+imprime maior numero;
+
+6°:
+declara uma lista numeros impares vazia;
+percorre a array de numeros;
+se o numero do indice resto da divisão por 2 diferente de 0;
+numeros impares adiciona numero do indice;
+imprime numeros impares
+
+7°:
+declara variavel menor numero recebe maior numero;
+percorre a array de numeros;
+se numero do indice for menor que menor numero;
+menor numero recebe numero do indice;
+imprime menor numero;
+
+8° e 9°:
+cria uma array numeros crescentes;
+repetição até indice menor 26;
+numeros crescentes adiciona indice;
+imprime lista crescente indice -1 dividido por 2;
+imprime lista crescente;
