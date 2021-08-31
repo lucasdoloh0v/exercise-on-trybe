@@ -116,7 +116,7 @@ if (number1 % 2 == !0 || number1 % 2 == !0 || number3 % 2 == !0) {
 
 /// 10°
 /*let valorCusto = 10;
-let valorCustoTotal = (valorCusto + valorCusto * 20/100);
+let valorCustoTotal = valorCusto + (valorCusto * 20/100);
 let valorVenda = 15;
 let lucro = valorVenda - valorCustoTotal;
 
