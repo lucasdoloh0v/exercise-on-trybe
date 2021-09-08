@@ -37,3 +37,14 @@ function addDays () {
 };
 
 addDays();
+
+//2
+function addButton (string) {
+  const buttonsContainer = document.querySelector('.buttons-container')
+
+  const button = document.createElement('button');
+  button.setAttribute('id', 'btn-holiday');
+  buttonsContainer.appendChild(button);
+  button.innerText = "Feriados"
+}
+addButton("Feriados")
