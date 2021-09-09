@@ -95,21 +95,17 @@ addButtonFriday ('Sexta-Feira');
 
 //5
 function clickFridayBtn () {
-  let fridays = document.getElementsByClassName('friday');
-  let currentColor = verifyColor(fridays);
-  if (currentColor === 'green') {
-    for (let i = 0; i < fridays.length; i += 1) {
-      let friday = fridays[i];
-      friday.style.backgroundColor = '#eee';
-    };
-  } else {
-    for (let i = 0; i < fridays.length; i += 1) {
-      let friday = fridays[i];
-      friday.style.backgroundColor = 'green';
+  let fridays = document.querySelectorAll('.friday');
+  let fridayDays = [4, 11, 18, 25];
+  for (let i = 0; i < fridays.length; i += 1) {
+    if (fridays[i].innerText === '4' || fridays[i].innerText === '11' || fridays[i].innerText === '18' || fridays[i].innerText === '25') {
+      fridays[i].innerText = 'mufasa';
+    } else {
+      fridays[i].innerText = fridayDays[i];
     };
   };  
 };
 let fridayButton = document.getElementById("btn-friday");
 fridayButton.addEventListener('click', clickFridayBtn);
 
-
+//6
