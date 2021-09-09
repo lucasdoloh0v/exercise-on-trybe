@@ -109,3 +109,13 @@ let fridayButton = document.getElementById("btn-friday");
 fridayButton.addEventListener('click', clickFridayBtn);
 
 //6
+function changeSizeMouseOver(event) {
+  
+  event.target.style.fontSize = '30px';
+}
+function changeSizeMouseOut(event) {
+  event.target.style.fontSize = '20px';
+}
+let daysList = document.querySelector ("#days")
+daysList.addEventListener('mouseover', changeSizeMouseOver);
+daysList.addEventListener('mouseout', changeSizeMouseOut);
