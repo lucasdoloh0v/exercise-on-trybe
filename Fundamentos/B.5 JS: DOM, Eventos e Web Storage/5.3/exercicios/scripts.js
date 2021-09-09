@@ -40,11 +40,36 @@ addDays();
 
 //2
 function addButton (string) {
-  const buttonsContainer = document.querySelector('.buttons-container')
+  const buttonsContainer = document.querySelector('.buttons-container');
 
   const button = document.createElement('button');
   button.setAttribute('id', 'btn-holiday');
   buttonsContainer.appendChild(button);
-  button.innerText = "Feriados"
-}
-addButton("Feriados")
+  button.innerText = "Feriados";
+};
+
+addButton("Feriados");
+
+//3
+function clickHolidayBtn () {
+  let holidays = document.getElementsByClassName('holiday');
+  let currentColor = verifyColor(holidays);
+  if (currentColor === 'green') {
+    for (let i = 0; i < holidays.length; i += 1) {
+      let holiday = holidays[i];
+      holiday.style.backgroundColor = '#eee';
+    };
+  } else {
+    for (let i = 0; i < holidays.length; i += 1) {
+      let holiday = holidays[i];
+      holiday.style.backgroundColor = 'green';
+    };
+  };  
+};
+
+function verifyColor (elements) {
+  return elements[0].style.backgroundColor;
+};
+
+let button = document.getElementById("btn-holiday");
+button.addEventListener('click', clickHolidayBtn);
