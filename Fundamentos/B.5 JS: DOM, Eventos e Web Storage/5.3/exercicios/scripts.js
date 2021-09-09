@@ -43,9 +43,9 @@ function addButton (string) {
   const buttonsContainer = document.querySelector('.buttons-container');
 
   const button = document.createElement('button');
-  button.setAttribute('id', 'btn-holiday');
   buttonsContainer.appendChild(button);
-  button.innerText = "Feriados";
+  addIdBtn (button, 'btn-holiday');
+  addTextBtn (button, string);
 };
 
 addButton("Feriados");
@@ -71,5 +71,45 @@ function verifyColor (elements) {
   return elements[0].style.backgroundColor;
 };
 
-let button = document.getElementById("btn-holiday");
-button.addEventListener('click', clickHolidayBtn);
+let holidayButton = document.getElementById("btn-holiday");
+holidayButton.addEventListener('click', clickHolidayBtn);
+
+//4
+function addIdBtn (element, nameId) {
+  element.setAttribute('id', nameId);
+};
+function addTextBtn (element, text) {
+  element.innerText = text;
+}
+
+function addButtonFriday (string) {
+  const buttonsContainer = document.querySelector('.buttons-container');
+
+  const button = document.createElement('button');
+  buttonsContainer.appendChild(button);
+  addIdBtn (button, 'btn-friday');
+  addTextBtn (button, string);
+};
+
+addButtonFriday ('Sexta-Feira');
+
+//5
+function clickFridayBtn () {
+  let fridays = document.getElementsByClassName('friday');
+  let currentColor = verifyColor(fridays);
+  if (currentColor === 'green') {
+    for (let i = 0; i < fridays.length; i += 1) {
+      let friday = fridays[i];
+      friday.style.backgroundColor = '#eee';
+    };
+  } else {
+    for (let i = 0; i < fridays.length; i += 1) {
+      let friday = fridays[i];
+      friday.style.backgroundColor = 'green';
+    };
+  };  
+};
+let fridayButton = document.getElementById("btn-friday");
+fridayButton.addEventListener('click', clickFridayBtn);
+
+
