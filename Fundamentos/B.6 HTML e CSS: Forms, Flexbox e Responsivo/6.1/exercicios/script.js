@@ -9,4 +9,9 @@ function addState(array) {
   }
 }
 
+function subimitedForm(event) {
+  event.preventDefault();
+}
+
 addState(brazilStates);
+document.querySelector('#submit-form').addEventListener('click', subimitedForm);
