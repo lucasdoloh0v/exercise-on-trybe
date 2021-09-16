@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <main>
+
+    <form class="container">
+
+      <h1 class="display-1">Formulário</h1 >
+      <div class="container">
+        <label for="name" class="form-label">Nome:
+          <input type="text" name="form" id="name" maxlength="40" required class="form-control">
+        </label>
+        <br>
+        <label for="email"class="form-label">E-mail:
+          <input type="email" name="form" id="email" maxlength="50" required class="form-control">
+        </label>
+        <br>
+        <label for="cpf" class="form-label">CPF:
+          <input type="text" name="form" id="cpf" maxlength="11" required class="form-control">
+        </label>
+        <br>
+      </div>
+
+      <div class="container">
+        <label for="adress" class="form-label">Endereço:
+        <input type="text" name="form" id="adress" maxlength="200" required class="form-control">
+        </label>
+        <br>
+        <label for="city" class="form-label">Cidade:
+        <input type="text" name="form" id="city" maxlength="28" required class="form-control">
+        </label>
+        <br>
+        <label for="state" class="form-label">Estado:
+        <select name="form" id="state" required class="form-select"></select>
+        </label>
+        <br>
+        <label for="" class="form-label">Tipo:
+          <label for="type" class="form-check-label">
+          <input type="radio" name="form" id="type" class="form-check-input">Casa
+          </label>
+          <label for="type2" class="form-check-label">
+          <input type="radio" name="form" id="type2" class="form-check-input">Apartemento
+          </label>
+        </label>
+      </div>
+
+      <div class="container">
+        <label for="curriculum" class="form-label">Escreva um breve resumo do seu curriculo:
+          <br>
+          <textarea name="form2" id="curriculum" cols="30" rows="10" maxlength="1000" class="form-control" required></textarea>
+        </label>
+        <br>
+        <label for="responssibility" class="form-label">Cargo:
+        <input type="text" name="form2" id="responssibility" maxlength="40" class="form-control" required>
+        </label>
+        <br>
+        <label for="description" class="form-label">Descrição do cargo:
+        <input type="text" name="form2" id="description" class="form-control" maxlength="500" required>
+        </label>
+        <br>
+        <label for="start-date" class="form-label">Data de inicio:
+        <input type="date" required class="form-control" id="start-date">
+        </label>
+      </div>
+      <div class="container">
+        <button id="submit-form" class="btn btn-success">Enviar</button>
+        <button type="reset" class="btn btn-warning">Limpar</button>
+      </div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
