@@ -33,24 +33,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-016-a-project-playground-functions/pull/112)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [X] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-3: _JavaScript - Eventos_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-016-a-project-pixels-art/pull/64)_
+- [X] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-016-a-project-todo-list/pull/14)_
+- [ ] 5-7: _[Projeto - Meme Generator]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-1: _HTML & CSS - Forms_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
@@ -73,14 +73,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assí­ncrono e Callbacks_
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
 - [ ] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
 - [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assí­ncronos_
+- [ ] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
@@ -107,7 +107,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 14: Metodologias ágeis
 
-- [ ] 14-1: _Metodologias ágeis_
+- [ ] 14-1: _Metodologias ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
@@ -146,7 +146,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especí­fica_
+- [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
@@ -186,7 +186,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 26: Intro - NodeJS
 
 - [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assí­ncrono_
+- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
