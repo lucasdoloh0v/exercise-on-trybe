@@ -119,3 +119,20 @@ function changeSizeMouseOut(event) {
 let daysList = document.querySelector ("#days")
 daysList.addEventListener('mouseover', changeSizeMouseOver);
 daysList.addEventListener('mouseout', changeSizeMouseOut);
+
+//7
+function addTaskCustom(task) {
+  const customTask = document.createElement('span');
+  customTask.innerText = task;
+  document.querySelector('.my-tasks').appendChild(customTask);
+}
+addTaskCustom('cozinhar');
+
+//8
+function addSubtitles(color) {
+  const subtitle = document.createElement('div');
+  subtitle.classList.add('task');
+  subtitle.style.backgroundColor = color;
+  document.querySelector('.my-tasks').appendChild(subtitle);
+}
+addSubtitles('red')
