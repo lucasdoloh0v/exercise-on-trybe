@@ -135,4 +135,10 @@ function addSubtitles(color) {
   subtitle.style.backgroundColor = color;
   document.querySelector('.my-tasks').appendChild(subtitle);
 }
-addSubtitles('red')
+addSubtitles('red');
+
+//9
+function addEventSelect(event) {
+  event.target.classList.toggle('task-selected')
+}
+document.querySelector('.task').addEventListener('click', addEventSelect);
