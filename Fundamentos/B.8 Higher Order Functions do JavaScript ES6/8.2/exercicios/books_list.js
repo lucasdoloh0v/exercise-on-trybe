@@ -159,3 +159,34 @@ function booksOrderedByReleaseYearDesc() {
 }
 
 assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult4);
+
+//5
+const expectedResult5 = false;
+
+function everyoneWasBornOnSecXX() {
+  // escreva seu código aqui
+  return books.every(book => book.author.birthYear >= 1901 && book.author.birthYear <= 2001);
+}
+assert.equal(everyoneWasBornOnSecXX(), expectedResult5);
+
+//6
+const expectedResult6 = true;
+
+function someBookWasReleaseOnThe80s() {
+  // escreva seu código aqui
+  return books.some(book => book.releaseYear >= 1980 && book.releaseYear <= 1989);
+}
+
+assert.deepStrictEqual(someBookWasReleaseOnThe80s(), expectedResult6);
+
+const expectedResult7 = false;
+
+function authorUnique() {
+  // escreva seu código aqui
+  return books.every((book) =>
+    !books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+}
+
+assert.deepStrictEqual(authorUnique(), expectedResult7);
