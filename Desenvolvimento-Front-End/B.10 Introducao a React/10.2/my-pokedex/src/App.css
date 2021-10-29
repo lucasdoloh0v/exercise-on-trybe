@@ -1,0 +1,36 @@
+body {
+background: violet;
+}
+
+header {
+  text-align: center;
+  background-color: darkorchid;
+  height: 100%;
+  margin: 0;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+.pokedex div {
+  background-color: gray;
+  color: white;
+  border-radius: 6%;
+  width: 180px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex div p {
+  margin: 0;
+}
