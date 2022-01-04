@@ -8,10 +8,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: Introdução - Unix & Shell
+##### Bloco 1: Introdução - Unix & Bash
 
-- [X] 1-3: _Unix & Shell- Part 1_
-- [X] 1-4: _Unix & Shell- Part 2_
+- [X] 1-3: _Unix & Bash- Part 1_
+- [X] 1-4: _Unix & Bash- Part 2_
 
 ##### Bloco 2: Git & GitHub
 
@@ -54,7 +54,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [X] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -65,17 +65,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 8: JavaScript ES6
 
-- [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [X] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-1: _JavaScript ES6 - Introdução a Higher order Functions_
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 8-6: _[Projeto - Zoo functions]()_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-2: _JavaScript Promises_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
@@ -88,37 +90,36 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 11: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [X] 11-1: _'Hello, world!' no React!_
+- [X] 11-2: _Componentes React_
+- [X] 11-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 12: React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 12-1: _Components com estado_
+- [X] 12-2: _Eventos e formulários no React_
+- [X] 12-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 13: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [X] 13-1: _Ciclo de vida de componentes em React_
+- [X] 13-2: _React Router_
+- [X] 13-3: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 14: Metodologias ágeis
 
-- [ ] 14-1: _Metodologias ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [X] 14-1: _Metodologias ágeis_
+- [X] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [X] 15-1: _Testando React com a React Testing Library_
+- [X] 15-2: _Testando React com a React Testing Library - Parte 2_
+- [X] 15-3: _[Projeto - Testes em React]()_
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
+- [X] 16-1: _Introdução ao Redux_
 - [ ] 16-2: _React com Redux - Parte 1_
 - [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
