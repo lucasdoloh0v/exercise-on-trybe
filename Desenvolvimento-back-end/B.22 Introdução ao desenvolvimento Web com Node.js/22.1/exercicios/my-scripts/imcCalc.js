@@ -30,7 +30,7 @@ const imcCalc = () => {
 
   const result = imcResult(imc);
 
-  return console.log(`Seu IMC é: ${imc}. E a sua situção: ${result}`);
+  return console.log(`Seu IMC é: ${imc.toFixed(2)}. E a sua situção: ${result}`);
 }
 
-module.export = imcCalc;
+imcCalc();
